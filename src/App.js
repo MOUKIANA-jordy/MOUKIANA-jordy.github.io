@@ -46,26 +46,56 @@ function App() {
       </header>
 
       <main>
+        {/* ABOUT ME */}
         <section id="about" className="section">
-          <p className="section-label">ABOUT</p>
-          <h2>Building useful digital products.</h2>
+          <p className="section-label">ABOUT ME</p>
+
+          <h2>
+            Full-Stack Developer building useful and reliable web
+            applications.
+          </h2>
 
           <p className="section-text">
-            Full-Stack Developer trained at Holberton Digital School,
-            with experience building frontend interfaces, backend APIs,
-            authentication systems and production deployments.
+            I&apos;m Jordy Moukiana, a Full-Stack Developer based in
+            Paris and trained at Holberton Digital School. I build
+            modern web applications from frontend interfaces to backend
+            APIs using technologies such as React, Next.js, JavaScript,
+            Python, Django, Node.js, REST APIs, PostgreSQL and Tailwind
+            CSS.
+          </p>
+
+          <p className="section-text">
+            Through project-based learning at Holberton, I developed
+            practical experience designing, testing and deploying
+            complete applications. My main project is{" "}
+            <a
+              href="https://github.com/MOUKIANA-jordy/STAFFHUB"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-link"
+            >
+              StaffHub
+            </a>
+            , a full-stack HR management platform that centralizes
+            employee records, administrative requests, documents,
+            schedules, attendance, payroll, notifications and
+            messaging.
           </p>
 
           <p className="section-text">
             My academic background in chemistry and professional
-            experience in operational environments bring a structured,
-            practical and collaborative approach to software
-            development.
+            experience in operational environments have strengthened
+            my structured approach, adaptability and teamwork. I&apos;m
+            looking for opportunities where I can contribute to
+            real-world products, continue growing as a developer and
+            bring value to an engineering team.
           </p>
         </section>
 
+        {/* SKILLS */}
         <section id="skills" className="section section-alt">
           <p className="section-label">TECHNICAL SKILLS</p>
+
           <h2>Technologies I work with.</h2>
 
           <div className="skills-grid">
@@ -98,24 +128,29 @@ function App() {
           </div>
         </section>
 
+        {/* PROJECTS */}
         <section id="projects" className="section">
           <p className="section-label">PROJECTS</p>
+
           <h2>Selected work.</h2>
 
+          {/* STAFFHUB */}
           <div className="project-card">
             <div>
               <p className="project-type">FINAL PROJECT</p>
+
               <h3>StaffHub</h3>
 
               <p>
-                Full-stack HR management platform designed to centralize
-                employee records, requests, documents, schedules,
-                attendance, payroll, notifications and messaging.
+                Full-stack HR management platform designed to
+                centralize employee records, requests, documents,
+                schedules, attendance, payroll, notifications and
+                messaging.
               </p>
 
               <p className="stack">
-                React • Python • Django REST Framework • PostgreSQL • JWT
-                • Vercel • Render
+                React • Python • Django REST Framework • PostgreSQL •
+                JWT • Vercel • Render
               </p>
             </div>
 
@@ -130,9 +165,11 @@ function App() {
             </div>
           </div>
 
+          {/* REACT REDUX */}
           <div className="project-card">
             <div>
               <p className="project-type">HOLBERTON PROJECT</p>
+
               <h3>React / Redux Dashboard</h3>
 
               <p>
@@ -158,8 +195,10 @@ function App() {
           </div>
         </section>
 
+        {/* CONTACT */}
         <section id="contact" className="section section-alt">
           <p className="section-label">CONTACT</p>
+
           <h2>Let's work together.</h2>
 
           <p className="section-text">
